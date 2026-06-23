@@ -1,0 +1,218 @@
+2026-06-24 01:30:52.526 [TestNG-tests-1] INFO  TestListener - ===== Test Suite Started: GitHubSearch_Chrome =====
+2026-06-24 01:30:52.526 [TestNG-tests-3] INFO  TestListener - ===== Test Suite Started: ParallelAnalytics_Java_Python_Selenium_Automation =====
+2026-06-24 01:30:52.526 [TestNG-tests-2] INFO  TestListener - ===== Test Suite Started: RepositoryAnalytics_Chrome =====
+2026-06-24 01:30:52.545 [TestNG-tests-1] INFO  ConfigReader - Config properties loaded successfully from src/test/resources/config.properties
+2026-06-24 01:30:52.552 [TestNG-tests-3] INFO  AllureEnvironmentWriter - Allure environment.properties written to: C:\Users\KIIT\Downloads\GitHubAnalyticsFramework\GitHubAnalyticsFramework\allure-results\environment.properties
+2026-06-24 01:30:52.553 [TestNG-tests-2] INFO  AllureEnvironmentWriter - Allure environment.properties written to: C:\Users\KIIT\Downloads\GitHubAnalyticsFramework\GitHubAnalyticsFramework\allure-results\environment.properties
+2026-06-24 01:30:52.552 [TestNG-tests-1] INFO  AllureEnvironmentWriter - Allure environment.properties written to: C:\Users\KIIT\Downloads\GitHubAnalyticsFramework\GitHubAnalyticsFramework\allure-results\environment.properties
+2026-06-24 01:30:52.606 [TestNG-tests-2] INFO  TestListener - Allure categories.json copied to allure-results/
+2026-06-24 01:30:52.608 [TestNG-tests-1] ERROR TestListener - Failed to copy categories.json to allure-results: src\test\resources\allure-categories\categories.json -> allure-results\categories.json
+2026-06-24 01:30:52.608 [TestNG-tests-3] INFO  TestListener - Allure categories.json copied to allure-results/
+2026-06-24 01:30:52.797 [TestNG-tests-2] INFO  BaseTest - Setting up driver for browser: chrome on thread [38]
+2026-06-24 01:30:52.797 [TestNG-tests-1] INFO  BaseTest - Setting up driver for browser: chrome on thread [37]
+2026-06-24 01:30:52.797 [TestNG-PoolService-4] INFO  BaseTest - Setting up driver for browser: chrome on thread [44]
+2026-06-24 01:30:52.797 [TestNG-PoolService-2] INFO  BaseTest - Setting up driver for browser: chrome on thread [42]
+2026-06-24 01:30:52.797 [TestNG-PoolService-1] INFO  BaseTest - Setting up driver for browser: chrome on thread [41]
+2026-06-24 01:30:52.797 [TestNG-PoolService-3] INFO  BaseTest - Setting up driver for browser: chrome on thread [43]
+2026-06-24 01:30:59.356 [TestNG-PoolService-2] INFO  DriverFactory - Driver initialized for browser [chrome] on thread [42]
+2026-06-24 01:30:59.438 [TestNG-PoolService-1] INFO  DriverFactory - Driver initialized for browser [chrome] on thread [41]
+2026-06-24 01:30:59.652 [TestNG-PoolService-4] INFO  DriverFactory - Driver initialized for browser [chrome] on thread [44]
+2026-06-24 01:30:59.750 [TestNG-PoolService-3] INFO  DriverFactory - Driver initialized for browser [chrome] on thread [43]
+2026-06-24 01:30:59.807 [TestNG-tests-2] INFO  DriverFactory - Driver initialized for browser [chrome] on thread [38]
+2026-06-24 01:31:00.059 [TestNG-tests-1] INFO  DriverFactory - Driver initialized for browser [chrome] on thread [37]
+2026-06-24 01:31:00.621 [TestNG-PoolService-4] INFO  TestListener - >>> Starting test: testParallelRepositoryExtraction
+2026-06-24 01:31:00.621 [TestNG-PoolService-1] INFO  TestListener - >>> Starting test: testParallelRepositoryExtraction
+2026-06-24 01:31:00.621 [TestNG-PoolService-3] INFO  TestListener - >>> Starting test: testParallelRepositoryExtraction
+2026-06-24 01:31:00.621 [TestNG-tests-1] INFO  TestListener - >>> Starting test: testTopicsPageLoadsSuccessfully
+2026-06-24 01:31:00.626 [TestNG-tests-2] INFO  TestListener - >>> Starting test: testExtractAndExportRepositoryAnalytics
+2026-06-24 01:31:00.622 [TestNG-PoolService-1] INFO  ParallelAnalyticsTest - Starting parallel extraction for topic 'java' on thread [41]
+2026-06-24 01:31:00.625 [TestNG-PoolService-2] INFO  TestListener - >>> Starting test: testParallelRepositoryExtraction
+2026-06-24 01:31:00.628 [TestNG-PoolService-2] INFO  ParallelAnalyticsTest - Starting parallel extraction for topic 'python' on thread [42]
+2026-06-24 01:31:00.629 [TestNG-PoolService-4] INFO  ParallelAnalyticsTest - Starting parallel extraction for topic 'automation' on thread [44]
+2026-06-24 01:31:00.634 [TestNG-tests-1] INFO  GitHubSearchTest - Starting test: testTopicsPageLoadsSuccessfully
+2026-06-24 01:31:00.635 [TestNG-tests-2] INFO  RepositoryAnalyticsTest - Starting test: testExtractAndExportRepositoryAnalytics
+2026-06-24 01:31:00.622 [TestNG-PoolService-3] INFO  ParallelAnalyticsTest - Starting parallel extraction for topic 'selenium' on thread [43]
+2026-06-24 01:31:04.496 [TestNG-PoolService-3] INFO  HomePage - Navigated to URL: https://github.com/topics
+2026-06-24 01:31:06.676 [TestNG-tests-2] INFO  HomePage - Navigated to URL: https://github.com/topics
+2026-06-24 01:31:07.368 [TestNG-PoolService-2] INFO  HomePage - Navigated to URL: https://github.com/topics
+2026-06-24 01:31:11.662 [TestNG-tests-1] INFO  HomePage - Navigated to URL: https://github.com/topics
+2026-06-24 01:31:11.663 [TestNG-tests-1] DEBUG WaitUtil - Waiting for visibility of element: By.xpath: //h1[normalize-space()='Topics']
+2026-06-24 01:31:12.378 [TestNG-PoolService-3] INFO  HomePage - Navigated directly to topic URL: https://github.com/topics/selenium
+2026-06-24 01:31:12.492 [TestNG-PoolService-3] DEBUG WaitUtil - Waiting for visibility of all elements: By.xpath: //article[.//h3//a[@href]]
+2026-06-24 01:31:12.852 [TestNG-tests-1] INFO  HomePage - Topics page loaded status: true
+2026-06-24 01:31:13.121 [TestNG-PoolService-3] INFO  TopicsPage - Repository cards found on topic page: 20
+2026-06-24 01:31:13.124 [TestNG-PoolService-3] DEBUG WaitUtil - Waiting for visibility of all elements: By.xpath: //article[.//h3//a[@href]]
+2026-06-24 01:31:13.488 [TestNG-PoolService-3] INFO  TopicsPage - Opening first repository: https://github.com/SeleniumHQ/selenium
+2026-06-24 01:31:14.114 [TestNG-tests-2] INFO  HomePage - Navigated directly to topic URL: https://github.com/topics/java
+2026-06-24 01:31:14.115 [TestNG-tests-2] DEBUG WaitUtil - Waiting for visibility of all elements: By.xpath: //article[.//h3//a[@href]]
+2026-06-24 01:31:14.163 [TestNG-tests-1] INFO  ScreenshotUtil - Screenshot captured: C:\Users\KIIT\Downloads\GitHubAnalyticsFramework\GitHubAnalyticsFramework\test-output\screenshots\TopicsPage_Loaded_20260624_013112_863.png
+2026-06-24 01:31:14.163 [TestNG-tests-1] INFO  GitHubSearchTest - Test completed: testTopicsPageLoadsSuccessfully | Result: PASSED
+2026-06-24 01:31:14.203 [TestNG-tests-1] INFO  TestListener - <<< Test PASSED: testTopicsPageLoadsSuccessfully
+2026-06-24 01:31:14.428 [TestNG-tests-1] INFO  ScreenshotUtil - Screenshot captured: C:\Users\KIIT\Downloads\GitHubAnalyticsFramework\GitHubAnalyticsFramework\test-output\screenshots\pass\testTopicsPageLoadsSuccessfully_PASS_20260624_013114_206.png
+2026-06-24 01:31:14.437 [TestNG-tests-1] INFO  TestListener - Screenshot captured on PASS for [testTopicsPageLoadsSuccessfully] at path: C:\Users\KIIT\Downloads\GitHubAnalyticsFramework\GitHubAnalyticsFramework\test-output\screenshots\pass\testTopicsPageLoadsSuccessfully_PASS_20260624_013114_206.png
+2026-06-24 01:31:14.597 [TestNG-PoolService-2] INFO  HomePage - Navigated directly to topic URL: https://github.com/topics/python
+2026-06-24 01:31:14.598 [TestNG-PoolService-2] DEBUG WaitUtil - Waiting for visibility of all elements: By.xpath: //article[.//h3//a[@href]]
+2026-06-24 01:31:14.800 [TestNG-tests-1] INFO  BaseTest - Tearing down driver for test [testTopicsPageLoadsSuccessfully] on thread [37]
+2026-06-24 01:31:15.051 [TestNG-PoolService-4] INFO  HomePage - Navigated to URL: https://github.com/topics
+2026-06-24 01:31:15.408 [TestNG-PoolService-1] INFO  HomePage - Navigated to URL: https://github.com/topics
+2026-06-24 01:31:15.712 [TestNG-tests-2] INFO  TopicsPage - Repository cards found on topic page: 20
+2026-06-24 01:31:15.712 [TestNG-tests-2] DEBUG WaitUtil - Waiting for visibility of all elements: By.xpath: //article[.//h3//a[@href]]
+2026-06-24 01:31:15.980 [TestNG-PoolService-2] INFO  TopicsPage - Repository cards found on topic page: 20
+2026-06-24 01:31:15.981 [TestNG-PoolService-2] DEBUG WaitUtil - Waiting for visibility of all elements: By.xpath: //article[.//h3//a[@href]]
+2026-06-24 01:31:16.463 [TestNG-PoolService-4] INFO  HomePage - Navigated directly to topic URL: https://github.com/topics/automation
+2026-06-24 01:31:16.464 [TestNG-PoolService-4] DEBUG WaitUtil - Waiting for visibility of all elements: By.xpath: //article[.//h3//a[@href]]
+2026-06-24 01:31:16.972 [TestNG-tests-2] INFO  TopicsPage - Opening first repository: https://github.com/CyC2018/CS-Notes
+2026-06-24 01:31:17.077 [TestNG-PoolService-2] INFO  TopicsPage - Opening first repository: https://github.com/donnemartin/system-design-primer
+2026-06-24 01:31:19.247 [TestNG-PoolService-1] INFO  HomePage - Navigated directly to topic URL: https://github.com/topics/java
+2026-06-24 01:31:19.249 [TestNG-PoolService-1] DEBUG WaitUtil - Waiting for visibility of all elements: By.xpath: //article[.//h3//a[@href]]
+2026-06-24 01:31:20.247 [TestNG-PoolService-3] DEBUG WaitUtil - Waiting for visibility of element: By.cssSelector: strong[itemprop='name']
+2026-06-24 01:31:20.596 [TestNG-PoolService-4] INFO  TopicsPage - Repository cards found on topic page: 20
+2026-06-24 01:31:20.597 [TestNG-PoolService-4] DEBUG WaitUtil - Waiting for visibility of all elements: By.xpath: //article[.//h3//a[@href]]
+2026-06-24 01:31:20.655 [TestNG-PoolService-1] INFO  TopicsPage - Repository cards found on topic page: 20
+2026-06-24 01:31:20.655 [TestNG-PoolService-1] DEBUG WaitUtil - Waiting for visibility of all elements: By.xpath: //article[.//h3//a[@href]]
+2026-06-24 01:31:21.757 [TestNG-PoolService-3] DEBUG WaitUtil - Waiting for visibility of element: By.cssSelector: strong[itemprop='name'] a
+2026-06-24 01:31:21.903 [TestNG-PoolService-3] INFO  RepositoryPage - Extracted repository name: selenium
+2026-06-24 01:31:21.904 [TestNG-PoolService-3] DEBUG WaitUtil - Waiting for visibility of element: By.id: repo-stars-counter-star
+2026-06-24 01:31:22.069 [TestNG-PoolService-3] INFO  RepositoryPage - Extracted stars: 34.2k
+2026-06-24 01:31:22.070 [TestNG-PoolService-3] DEBUG WaitUtil - Waiting for visibility of element: By.id: repo-network-counter
+2026-06-24 01:31:22.102 [TestNG-PoolService-4] INFO  TopicsPage - Opening first repository: https://github.com/n8n-io/n8n
+2026-06-24 01:31:22.182 [TestNG-PoolService-3] INFO  RepositoryPage - Extracted forks: 8.7k
+2026-06-24 01:31:22.269 [TestNG-PoolService-3] INFO  RepositoryPage - Extracted issues: 109
+2026-06-24 01:31:22.342 [TestNG-PoolService-1] INFO  TopicsPage - Opening first repository: https://github.com/CyC2018/CS-Notes
+2026-06-24 01:31:22.342 [TestNG-PoolService-3] INFO  RepositoryPage - Extracted primary language: Java
+2026-06-24 01:31:22.343 [TestNG-PoolService-3] DEBUG WaitUtil - Waiting for visibility of element: By.xpath: //h2[normalize-space()='About']/following-sibling::p[1]
+2026-06-24 01:31:22.488 [TestNG-PoolService-3] INFO  RepositoryPage - Extracted description: A browser automation framework and ecosystem.
+2026-06-24 01:31:22.506 [TestNG-PoolService-3] INFO  RepositoryPage - Complete repository data extracted: RepositoryData{repositoryName='selenium', stars='34.2k', forks='8.7k', issues='109', primaryLanguage='Java', description='A browser automation framework and ecosystem.'}
+2026-06-24 01:31:22.506 [TestNG-PoolService-3] INFO  ParallelAnalyticsTest - [Thread 43] Topic 'selenium' extracted data: RepositoryData{repositoryName='selenium', stars='34.2k', forks='8.7k', issues='109', primaryLanguage='Java', description='A browser automation framework and ecosystem.'}
+2026-06-24 01:31:22.886 [TestNG-PoolService-3] INFO  ScreenshotUtil - Screenshot captured: C:\Users\KIIT\Downloads\GitHubAnalyticsFramework\GitHubAnalyticsFramework\test-output\screenshots\Parallel_selenium_Extracted_20260624_013122_507.png
+2026-06-24 01:31:23.313 [TestNG-PoolService-3] INFO  CSVUtil - CSV export successful: C:\Users\KIIT\Downloads\GitHubAnalyticsFramework\GitHubAnalyticsFramework\test-output\data\selenium_RepositoryData.csv (1 records)
+2026-06-24 01:31:23.425 [TestNG-tests-2] DEBUG WaitUtil - Waiting for visibility of element: By.cssSelector: strong[itemprop='name']
+2026-06-24 01:31:23.751 [TestNG-tests-2] DEBUG WaitUtil - Waiting for visibility of element: By.cssSelector: strong[itemprop='name'] a
+2026-06-24 01:31:23.920 [TestNG-tests-2] INFO  RepositoryPage - Extracted repository name: CS-Notes
+2026-06-24 01:31:23.920 [TestNG-tests-2] DEBUG WaitUtil - Waiting for visibility of element: By.id: repo-stars-counter-star
+2026-06-24 01:31:24.308 [TestNG-tests-2] INFO  RepositoryPage - Extracted stars: 185k
+2026-06-24 01:31:24.309 [TestNG-tests-2] DEBUG WaitUtil - Waiting for visibility of element: By.id: repo-network-counter
+2026-06-24 01:31:24.525 [TestNG-tests-2] INFO  RepositoryPage - Extracted forks: 50.9k
+2026-06-24 01:31:24.779 [TestNG-PoolService-2] DEBUG WaitUtil - Waiting for visibility of element: By.cssSelector: strong[itemprop='name']
+2026-06-24 01:31:24.826 [TestNG-tests-2] INFO  RepositoryPage - Extracted issues: 129
+2026-06-24 01:31:24.871 [TestNG-PoolService-2] DEBUG WaitUtil - Waiting for visibility of element: By.cssSelector: strong[itemprop='name'] a
+2026-06-24 01:31:24.874 [TestNG-tests-2] DEBUG WaitUtil - Waiting for visibility of element: By.xpath: //h2[normalize-space()='About']/following-sibling::p[1]
+2026-06-24 01:31:24.997 [TestNG-PoolService-2] INFO  RepositoryPage - Extracted repository name: system-design-primer
+2026-06-24 01:31:24.998 [TestNG-PoolService-2] DEBUG WaitUtil - Waiting for visibility of element: By.id: repo-stars-counter-star
+2026-06-24 01:31:25.021 [TestNG-tests-2] INFO  RepositoryPage - Extracted description: 📚 技术面试必备基础知识、Leetcode、计算机操作系统、计算机网络、系统设计
+2026-06-24 01:31:25.025 [TestNG-tests-2] INFO  RepositoryPage - Complete repository data extracted: RepositoryData{repositoryName='CS-Notes', stars='185k', forks='50.9k', issues='129', primaryLanguage='Unknown', description='📚 技术面试必备基础知识、Leetcode、计算机操作系统、计算机网络、系统设计'}
+2026-06-24 01:31:25.035 [TestNG-tests-2] INFO  RepositoryAnalyticsTest - Repository data extracted: RepositoryData{repositoryName='CS-Notes', stars='185k', forks='50.9k', issues='129', primaryLanguage='Unknown', description='📚 技术面试必备基础知识、Leetcode、计算机操作系统、计算机网络、系统设计'}
+2026-06-24 01:31:25.291 [TestNG-PoolService-2] INFO  RepositoryPage - Extracted stars: 355k
+2026-06-24 01:31:25.292 [TestNG-PoolService-2] DEBUG WaitUtil - Waiting for visibility of element: By.id: repo-network-counter
+2026-06-24 01:31:25.326 [TestNG-tests-2] INFO  ScreenshotUtil - Screenshot captured: C:\Users\KIIT\Downloads\GitHubAnalyticsFramework\GitHubAnalyticsFramework\test-output\screenshots\RepositoryPage_DataExtracted_20260624_013125_035.png
+2026-06-24 01:31:25.329 [TestNG-tests-2] INFO  RepositoryAnalyticsTest - Validating -> Stars: 185000, Forks: 50900, Language: Unknown, Name: 'CS-Notes'
+2026-06-24 01:31:25.634 [TestNG-PoolService-1] DEBUG WaitUtil - Waiting for visibility of element: By.cssSelector: strong[itemprop='name']
+2026-06-24 01:31:25.839 [TestNG-tests-2] INFO  ScreenshotUtil - Screenshot captured: C:\Users\KIIT\Downloads\GitHubAnalyticsFramework\GitHubAnalyticsFramework\test-output\screenshots\BeforeScroll_20260624_013125_331.png
+2026-06-24 01:31:25.940 [TestNG-PoolService-2] INFO  RepositoryPage - Extracted forks: 56.9k
+2026-06-24 01:31:26.032 [TestNG-tests-2] INFO  RepositoryPage - Scrolled to bottom of repository page using JavascriptExecutor
+2026-06-24 01:31:26.045 [TestNG-PoolService-1] DEBUG WaitUtil - Waiting for visibility of element: By.cssSelector: strong[itemprop='name'] a
+2026-06-24 01:31:26.151 [TestNG-PoolService-2] INFO  RepositoryPage - Extracted issues: 254
+2026-06-24 01:31:26.255 [TestNG-PoolService-2] INFO  RepositoryPage - Extracted primary language: Python
+2026-06-24 01:31:26.256 [TestNG-PoolService-2] DEBUG WaitUtil - Waiting for visibility of element: By.xpath: //h2[normalize-space()='About']/following-sibling::p[1]
+2026-06-24 01:31:26.277 [TestNG-PoolService-1] INFO  RepositoryPage - Extracted repository name: CS-Notes
+2026-06-24 01:31:26.278 [TestNG-PoolService-1] DEBUG WaitUtil - Waiting for visibility of element: By.id: repo-stars-counter-star
+2026-06-24 01:31:26.331 [TestNG-PoolService-4] DEBUG WaitUtil - Waiting for visibility of element: By.cssSelector: strong[itemprop='name']
+2026-06-24 01:31:26.457 [TestNG-tests-2] INFO  ScreenshotUtil - Screenshot captured: C:\Users\KIIT\Downloads\GitHubAnalyticsFramework\GitHubAnalyticsFramework\test-output\screenshots\AfterScroll_20260624_013126_088.png
+2026-06-24 01:31:26.459 [TestNG-tests-2] INFO  CSVUtil - CSV export successful: C:\Users\KIIT\Downloads\GitHubAnalyticsFramework\GitHubAnalyticsFramework\test-output\data\RepositoryData.csv (1 records)
+2026-06-24 01:31:26.676 [TestNG-PoolService-2] INFO  RepositoryPage - Extracted description: Learn how to design large-scale systems. Prep for the system design interview. Includes Anki flashcards.
+2026-06-24 01:31:26.677 [TestNG-PoolService-2] INFO  RepositoryPage - Complete repository data extracted: RepositoryData{repositoryName='system-design-primer', stars='355k', forks='56.9k', issues='254', primaryLanguage='Python', description='Learn how to design large-scale systems. Prep for the system design interview. Includes Anki flashcards.'}
+2026-06-24 01:31:26.678 [TestNG-PoolService-2] INFO  ParallelAnalyticsTest - [Thread 42] Topic 'python' extracted data: RepositoryData{repositoryName='system-design-primer', stars='355k', forks='56.9k', issues='254', primaryLanguage='Python', description='Learn how to design large-scale systems. Prep for the system design interview. Includes Anki flashcards.'}
+2026-06-24 01:31:26.786 [TestNG-PoolService-1] INFO  RepositoryPage - Extracted stars: 185k
+2026-06-24 01:31:26.787 [TestNG-PoolService-1] DEBUG WaitUtil - Waiting for visibility of element: By.id: repo-network-counter
+2026-06-24 01:31:27.375 [TestNG-PoolService-4] DEBUG WaitUtil - Waiting for visibility of element: By.cssSelector: strong[itemprop='name'] a
+2026-06-24 01:31:27.845 [TestNG-PoolService-2] INFO  ScreenshotUtil - Screenshot captured: C:\Users\KIIT\Downloads\GitHubAnalyticsFramework\GitHubAnalyticsFramework\test-output\screenshots\Parallel_python_Extracted_20260624_013126_679.png
+2026-06-24 01:31:27.858 [TestNG-PoolService-2] INFO  CSVUtil - CSV export successful: C:\Users\KIIT\Downloads\GitHubAnalyticsFramework\GitHubAnalyticsFramework\test-output\data\python_RepositoryData.csv (1 records)
+2026-06-24 01:31:28.060 [TestNG-PoolService-4] INFO  RepositoryPage - Extracted repository name: n8n
+2026-06-24 01:31:28.067 [TestNG-PoolService-4] DEBUG WaitUtil - Waiting for visibility of element: By.id: repo-stars-counter-star
+2026-06-24 01:31:28.150 [TestNG-PoolService-1] INFO  RepositoryPage - Extracted forks: 50.9k
+2026-06-24 01:31:28.887 [TestNG-PoolService-1] INFO  RepositoryPage - Extracted issues: 129
+2026-06-24 01:31:29.293 [TestNG-PoolService-1] DEBUG WaitUtil - Waiting for visibility of element: By.xpath: //h2[normalize-space()='About']/following-sibling::p[1]
+2026-06-24 01:31:29.401 [TestNG-PoolService-4] INFO  RepositoryPage - Extracted stars: 194k
+2026-06-24 01:31:29.409 [TestNG-PoolService-4] DEBUG WaitUtil - Waiting for visibility of element: By.id: repo-network-counter
+2026-06-24 01:31:29.554 [TestNG-tests-1] INFO  DriverFactory - Driver quit and removed for thread [37]
+2026-06-24 01:31:29.628 [TestNG-PoolService-1] INFO  RepositoryPage - Extracted description: 📚 技术面试必备基础知识、Leetcode、计算机操作系统、计算机网络、系统设计
+2026-06-24 01:31:29.630 [TestNG-PoolService-1] INFO  RepositoryPage - Complete repository data extracted: RepositoryData{repositoryName='CS-Notes', stars='185k', forks='50.9k', issues='129', primaryLanguage='Unknown', description='📚 技术面试必备基础知识、Leetcode、计算机操作系统、计算机网络、系统设计'}
+2026-06-24 01:31:29.631 [TestNG-PoolService-1] INFO  ParallelAnalyticsTest - [Thread 41] Topic 'java' extracted data: RepositoryData{repositoryName='CS-Notes', stars='185k', forks='50.9k', issues='129', primaryLanguage='Unknown', description='📚 技术面试必备基础知识、Leetcode、计算机操作系统、计算机网络、系统设计'}
+2026-06-24 01:31:29.782 [TestNG-PoolService-4] INFO  RepositoryPage - Extracted forks: 58.8k
+2026-06-24 01:31:29.909 [TestNG-PoolService-4] INFO  RepositoryPage - Extracted issues: 447
+2026-06-24 01:31:30.042 [TestNG-PoolService-4] INFO  RepositoryPage - Extracted primary language: TypeScript
+2026-06-24 01:31:30.043 [TestNG-PoolService-4] DEBUG WaitUtil - Waiting for visibility of element: By.xpath: //h2[normalize-space()='About']/following-sibling::p[1]
+2026-06-24 01:31:30.256 [TestNG-PoolService-4] INFO  RepositoryPage - Extracted description: Fair-code workflow automation platform with native AI capabilities. Combine visual building with custom code, self-host or cloud, 400+ integrations.
+2026-06-24 01:31:30.258 [TestNG-PoolService-4] INFO  RepositoryPage - Complete repository data extracted: RepositoryData{repositoryName='n8n', stars='194k', forks='58.8k', issues='447', primaryLanguage='TypeScript', description='Fair-code workflow automation platform with native AI capabilities. Combine visual building with custom code, self-host or cloud, 400+ integrations.'}
+2026-06-24 01:31:30.259 [TestNG-PoolService-4] INFO  ParallelAnalyticsTest - [Thread 44] Topic 'automation' extracted data: RepositoryData{repositoryName='n8n', stars='194k', forks='58.8k', issues='447', primaryLanguage='TypeScript', description='Fair-code workflow automation platform with native AI capabilities. Combine visual building with custom code, self-host or cloud, 400+ integrations.'}
+2026-06-24 01:31:30.994 [TestNG-tests-1] INFO  BaseTest - Setting up driver for browser: chrome on thread [37]
+2026-06-24 01:31:31.066 [TestNG-PoolService-1] INFO  ScreenshotUtil - Screenshot captured: C:\Users\KIIT\Downloads\GitHubAnalyticsFramework\GitHubAnalyticsFramework\test-output\screenshots\Parallel_java_Extracted_20260624_013129_632.png
+2026-06-24 01:31:31.091 [TestNG-PoolService-1] INFO  CSVUtil - CSV export successful: C:\Users\KIIT\Downloads\GitHubAnalyticsFramework\GitHubAnalyticsFramework\test-output\data\java_RepositoryData.csv (1 records)
+2026-06-24 01:31:31.099 [TestNG-PoolService-4] INFO  ScreenshotUtil - Screenshot captured: C:\Users\KIIT\Downloads\GitHubAnalyticsFramework\GitHubAnalyticsFramework\test-output\screenshots\Parallel_automation_Extracted_20260624_013130_259.png
+2026-06-24 01:31:31.111 [TestNG-PoolService-4] INFO  CSVUtil - CSV export successful: C:\Users\KIIT\Downloads\GitHubAnalyticsFramework\GitHubAnalyticsFramework\test-output\data\automation_RepositoryData.csv (1 records)
+2026-06-24 01:31:36.921 [TestNG-tests-1] INFO  DriverFactory - Driver initialized for browser [chrome] on thread [37]
+2026-06-24 01:31:36.958 [TestNG-tests-1] INFO  TestListener - >>> Starting test: testSearchJavaTopicShowsRepositories
+2026-06-24 01:31:36.961 [TestNG-tests-1] INFO  GitHubSearchTest - Starting test: testSearchJavaTopicShowsRepositories
+2026-06-24 01:31:41.277 [TestNG-tests-1] INFO  HomePage - Navigated to URL: https://github.com/topics
+2026-06-24 01:31:41.282 [TestNG-tests-1] DEBUG WaitUtil - Waiting for element to be clickable: By.xpath: //button[@data-target='qbsearch-input.inputButtonText'] | //*[@placeholder='Search or jump to...'] | //button[contains(@aria-label,'Search')]
+2026-06-24 01:31:43.157 [TestNG-tests-1] INFO  HomePage - Clicked global header search trigger
+2026-06-24 01:31:43.158 [TestNG-tests-1] DEBUG WaitUtil - Waiting for visibility of element: By.xpath: //input[@id='query-builder-test'] | //input[@name='query-builder-test'] | //input[@aria-label='Search']
+2026-06-24 01:31:45.632 [TestNG-PoolService-3] INFO  ExcelUtil - Excel export successful: C:\Users\KIIT\Downloads\GitHubAnalyticsFramework\GitHubAnalyticsFramework\test-output\data\selenium_RepositoryData.xlsx (1 records)
+2026-06-24 01:31:45.633 [TestNG-PoolService-4] INFO  ExcelUtil - Excel export successful: C:\Users\KIIT\Downloads\GitHubAnalyticsFramework\GitHubAnalyticsFramework\test-output\data\automation_RepositoryData.xlsx (1 records)
+2026-06-24 01:31:45.710 [TestNG-PoolService-3] INFO  ParallelAnalyticsTest - Completed parallel extraction for topic 'selenium' on thread [43]
+2026-06-24 01:31:45.709 [TestNG-PoolService-4] INFO  ParallelAnalyticsTest - Completed parallel extraction for topic 'automation' on thread [44]
+2026-06-24 01:31:45.721 [TestNG-PoolService-4] INFO  TestListener - <<< Test PASSED: testParallelRepositoryExtraction
+2026-06-24 01:31:45.722 [TestNG-PoolService-3] INFO  TestListener - <<< Test PASSED: testParallelRepositoryExtraction
+2026-06-24 01:31:46.212 [TestNG-tests-1] INFO  HomePage - Typed search term 'java' into GitHub header search box (visible keystrokes)
+2026-06-24 01:31:46.271 [TestNG-PoolService-4] INFO  ScreenshotUtil - Screenshot captured: C:\Users\KIIT\Downloads\GitHubAnalyticsFramework\GitHubAnalyticsFramework\test-output\screenshots\pass\testParallelRepositoryExtraction_PASS_20260624_013145_722.png
+2026-06-24 01:31:46.272 [TestNG-PoolService-4] INFO  TestListener - Screenshot captured on PASS for [testParallelRepositoryExtraction] at path: C:\Users\KIIT\Downloads\GitHubAnalyticsFramework\GitHubAnalyticsFramework\test-output\screenshots\pass\testParallelRepositoryExtraction_PASS_20260624_013145_722.png
+2026-06-24 01:31:46.427 [TestNG-PoolService-2] INFO  ExcelUtil - Excel export successful: C:\Users\KIIT\Downloads\GitHubAnalyticsFramework\GitHubAnalyticsFramework\test-output\data\python_RepositoryData.xlsx (1 records)
+2026-06-24 01:31:46.455 [TestNG-PoolService-1] INFO  ExcelUtil - Excel export successful: C:\Users\KIIT\Downloads\GitHubAnalyticsFramework\GitHubAnalyticsFramework\test-output\data\java_RepositoryData.xlsx (1 records)
+2026-06-24 01:31:46.472 [TestNG-tests-2] INFO  ExcelUtil - Excel export successful: C:\Users\KIIT\Downloads\GitHubAnalyticsFramework\GitHubAnalyticsFramework\test-output\data\RepositoryData.xlsx (1 records)
+2026-06-24 01:31:46.591 [TestNG-PoolService-2] INFO  ParallelAnalyticsTest - Completed parallel extraction for topic 'python' on thread [42]
+2026-06-24 01:31:46.618 [TestNG-PoolService-2] INFO  TestListener - <<< Test PASSED: testParallelRepositoryExtraction
+2026-06-24 01:31:46.625 [TestNG-PoolService-3] INFO  ScreenshotUtil - Screenshot captured: C:\Users\KIIT\Downloads\GitHubAnalyticsFramework\GitHubAnalyticsFramework\test-output\screenshots\pass\testParallelRepositoryExtraction_PASS_20260624_013145_722.png
+2026-06-24 01:31:46.626 [TestNG-PoolService-3] INFO  TestListener - Screenshot captured on PASS for [testParallelRepositoryExtraction] at path: C:\Users\KIIT\Downloads\GitHubAnalyticsFramework\GitHubAnalyticsFramework\test-output\screenshots\pass\testParallelRepositoryExtraction_PASS_20260624_013145_722.png
+2026-06-24 01:31:46.667 [TestNG-PoolService-1] INFO  ParallelAnalyticsTest - Completed parallel extraction for topic 'java' on thread [41]
+2026-06-24 01:31:46.673 [TestNG-PoolService-1] INFO  TestListener - <<< Test PASSED: testParallelRepositoryExtraction
+2026-06-24 01:31:46.672 [TestNG-tests-2] INFO  RepositoryAnalyticsTest - CSV exported to: C:\Users\KIIT\Downloads\GitHubAnalyticsFramework\GitHubAnalyticsFramework\test-output\data\RepositoryData.csv
+2026-06-24 01:31:46.676 [TestNG-tests-2] INFO  RepositoryAnalyticsTest - Excel exported to: C:\Users\KIIT\Downloads\GitHubAnalyticsFramework\GitHubAnalyticsFramework\test-output\data\RepositoryData.xlsx
+2026-06-24 01:31:46.676 [TestNG-tests-2] INFO  RepositoryAnalyticsTest - Test completed: testExtractAndExportRepositoryAnalytics | Result: PASSED
+2026-06-24 01:31:46.677 [TestNG-tests-2] INFO  TestListener - <<< Test PASSED: testExtractAndExportRepositoryAnalytics
+2026-06-24 01:31:46.792 [TestNG-PoolService-4] INFO  BaseTest - Tearing down driver for test [testParallelRepositoryExtraction] on thread [44]
+2026-06-24 01:31:47.124 [TestNG-PoolService-3] INFO  BaseTest - Tearing down driver for test [testParallelRepositoryExtraction] on thread [43]
+2026-06-24 01:31:47.158 [TestNG-PoolService-2] INFO  ScreenshotUtil - Screenshot captured: C:\Users\KIIT\Downloads\GitHubAnalyticsFramework\GitHubAnalyticsFramework\test-output\screenshots\pass\testParallelRepositoryExtraction_PASS_20260624_013146_619.png
+2026-06-24 01:31:47.158 [TestNG-PoolService-2] INFO  TestListener - Screenshot captured on PASS for [testParallelRepositoryExtraction] at path: C:\Users\KIIT\Downloads\GitHubAnalyticsFramework\GitHubAnalyticsFramework\test-output\screenshots\pass\testParallelRepositoryExtraction_PASS_20260624_013146_619.png
+2026-06-24 01:31:47.233 [TestNG-PoolService-1] INFO  ScreenshotUtil - Screenshot captured: C:\Users\KIIT\Downloads\GitHubAnalyticsFramework\GitHubAnalyticsFramework\test-output\screenshots\pass\testParallelRepositoryExtraction_PASS_20260624_013146_674.png
+2026-06-24 01:31:47.235 [TestNG-tests-2] INFO  ScreenshotUtil - Screenshot captured: C:\Users\KIIT\Downloads\GitHubAnalyticsFramework\GitHubAnalyticsFramework\test-output\screenshots\pass\testExtractAndExportRepositoryAnalytics_PASS_20260624_013146_680.png
+2026-06-24 01:31:47.236 [TestNG-tests-2] INFO  TestListener - Screenshot captured on PASS for [testExtractAndExportRepositoryAnalytics] at path: C:\Users\KIIT\Downloads\GitHubAnalyticsFramework\GitHubAnalyticsFramework\test-output\screenshots\pass\testExtractAndExportRepositoryAnalytics_PASS_20260624_013146_680.png
+2026-06-24 01:31:47.235 [TestNG-PoolService-1] INFO  TestListener - Screenshot captured on PASS for [testParallelRepositoryExtraction] at path: C:\Users\KIIT\Downloads\GitHubAnalyticsFramework\GitHubAnalyticsFramework\test-output\screenshots\pass\testParallelRepositoryExtraction_PASS_20260624_013146_674.png
+2026-06-24 01:31:47.549 [TestNG-PoolService-2] INFO  BaseTest - Tearing down driver for test [testParallelRepositoryExtraction] on thread [42]
+2026-06-24 01:31:47.620 [TestNG-tests-2] INFO  BaseTest - Tearing down driver for test [testExtractAndExportRepositoryAnalytics] on thread [38]
+2026-06-24 01:31:47.620 [TestNG-PoolService-1] INFO  BaseTest - Tearing down driver for test [testParallelRepositoryExtraction] on thread [41]
+2026-06-24 01:31:50.910 [TestNG-tests-1] INFO  HomePage - Submitted search for 'java' — GitHub will route to global search results
+2026-06-24 01:31:50.947 [TestNG-tests-1] INFO  HomePage - Landed on GitHub global search results page: https://github.com/search?q=java&type=repositories
+2026-06-24 01:31:51.315 [TestNG-tests-1] INFO  ScreenshotUtil - Screenshot captured: C:\Users\KIIT\Downloads\GitHubAnalyticsFramework\GitHubAnalyticsFramework\test-output\screenshots\GlobalSearch_Java_Results_20260624_013150_948.png
+2026-06-24 01:31:51.331 [TestNG-tests-1] INFO  GitHubSearchTest - Captured search results page after submitting 'java' search: https://github.com/search?q=java&type=repositories
+2026-06-24 01:31:52.033 [TestNG-PoolService-2] INFO  DriverFactory - Driver quit and removed for thread [42]
+2026-06-24 01:31:52.876 [TestNG-PoolService-1] INFO  DriverFactory - Driver quit and removed for thread [41]
+2026-06-24 01:31:53.102 [TestNG-tests-2] INFO  DriverFactory - Driver quit and removed for thread [38]
+2026-06-24 01:31:53.108 [TestNG-tests-2] INFO  TestListener - ===== Test Suite Finished: RepositoryAnalytics_Chrome =====
+2026-06-24 01:31:53.108 [TestNG-tests-2] INFO  TestListener - Passed: 1, Failed: 0, Skipped: 0
+2026-06-24 01:31:54.499 [TestNG-PoolService-3] INFO  DriverFactory - Driver quit and removed for thread [43]
+2026-06-24 01:31:54.558 [TestNG-tests-1] INFO  HomePage - Navigated directly to topic URL: https://github.com/topics/java
+2026-06-24 01:31:54.560 [TestNG-tests-1] DEBUG WaitUtil - Waiting for visibility of all elements: By.xpath: //article[.//h3//a[@href]]
+2026-06-24 01:31:55.974 [TestNG-tests-1] INFO  TopicsPage - Repository cards found on topic page: 20
+2026-06-24 01:31:55.985 [TestNG-PoolService-4] INFO  DriverFactory - Driver quit and removed for thread [44]
+2026-06-24 01:31:55.998 [TestNG-tests-3] INFO  TestListener - ===== Test Suite Finished: ParallelAnalytics_Java_Python_Selenium_Automation =====
+2026-06-24 01:31:55.999 [TestNG-tests-3] INFO  TestListener - Passed: 4, Failed: 0, Skipped: 0
+2026-06-24 01:31:56.250 [TestNG-tests-1] INFO  ScreenshotUtil - Screenshot captured: C:\Users\KIIT\Downloads\GitHubAnalyticsFramework\GitHubAnalyticsFramework\test-output\screenshots\JavaTopic_Repositories_20260624_013155_975.png
+2026-06-24 01:31:56.337 [TestNG-tests-1] INFO  GitHubSearchTest - Repository count on Java topic page: 20
+2026-06-24 01:31:56.337 [TestNG-tests-1] INFO  GitHubSearchTest - Test completed: testSearchJavaTopicShowsRepositories | Result: PASSED
+2026-06-24 01:31:56.339 [TestNG-tests-1] INFO  TestListener - <<< Test PASSED: testSearchJavaTopicShowsRepositories
+2026-06-24 01:31:56.577 [TestNG-tests-1] INFO  ScreenshotUtil - Screenshot captured: C:\Users\KIIT\Downloads\GitHubAnalyticsFramework\GitHubAnalyticsFramework\test-output\screenshots\pass\testSearchJavaTopicShowsRepositories_PASS_20260624_013156_339.png
+2026-06-24 01:31:56.578 [TestNG-tests-1] INFO  TestListener - Screenshot captured on PASS for [testSearchJavaTopicShowsRepositories] at path: C:\Users\KIIT\Downloads\GitHubAnalyticsFramework\GitHubAnalyticsFramework\test-output\screenshots\pass\testSearchJavaTopicShowsRepositories_PASS_20260624_013156_339.png
+2026-06-24 01:31:56.848 [TestNG-tests-1] INFO  BaseTest - Tearing down driver for test [testSearchJavaTopicShowsRepositories] on thread [37]
+2026-06-24 01:31:59.563 [TestNG-tests-1] INFO  DriverFactory - Driver quit and removed for thread [37]
+2026-06-24 01:31:59.567 [TestNG-tests-1] INFO  TestListener - ===== Test Suite Finished: GitHubSearch_Chrome =====
+2026-06-24 01:31:59.567 [TestNG-tests-1] INFO  TestListener - Passed: 2, Failed: 0, Skipped: 0

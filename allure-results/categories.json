@@ -1,0 +1,40 @@
+[
+  {
+    "name": "Element Not Found / Locator Issues",
+    "matchedStatuses": ["broken", "failed"],
+    "messageRegex": ".*NoSuchElementException.*"
+  },
+  {
+    "name": "Timeout Issues",
+    "matchedStatuses": ["broken", "failed"],
+    "messageRegex": ".*TimeoutException.*"
+  },
+  {
+    "name": "Assertion Failures",
+    "matchedStatuses": ["failed"],
+    "messageRegex": ".*AssertionError.*"
+  },
+  {
+    "name": "Stale Element Issues",
+    "matchedStatuses": ["broken", "failed"],
+    "messageRegex": ".*StaleElementReferenceException.*"
+  },
+  {
+    "name": "Driver / Session Issues",
+    "matchedStatuses": ["broken"],
+    "messageRegex": ".*(SessionNotCreatedException|WebDriverException).*"
+  },
+  {
+    "name": "Data Export Failures",
+    "matchedStatuses": ["broken", "failed"],
+    "messageRegex": ".*(IOException|CSV export failed|Excel export failed).*"
+  },
+  {
+    "name": "Product Defects",
+    "matchedStatuses": ["failed"]
+  },
+  {
+    "name": "Test Defects",
+    "matchedStatuses": ["broken"]
+  }
+]

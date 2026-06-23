@@ -1,0 +1,38 @@
+target/
+*.class
+
+# IDE
+.idea/
+*.iml
+.vscode/
+.classpath
+.project
+.settings/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Framework outputs — keep folder structure, ignore generated content
+test-output/data/*
+test-output/logs/*
+allure-results/
+allure-report/
+
+!test-output/data/.gitkeep
+!test-output/logs/.gitkeep
+
+# Screenshots: ignore generated PNGs but keep the pass/ and fail/ folder structure
+test-output/screenshots/*.png
+test-output/screenshots/pass/*.png
+test-output/screenshots/fail/*.png
+
+!test-output/screenshots/.gitkeep
+!test-output/screenshots/pass/.gitkeep
+!test-output/screenshots/fail/.gitkeep
+
+# Logs
+*.log
+
+# Maven
+dependency-reduced-pom.xml
